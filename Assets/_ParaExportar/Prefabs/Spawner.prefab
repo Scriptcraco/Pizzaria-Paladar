@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6990083785208687094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6986347836695682979}
+  - component: {fileID: 8421511880623039579}
+  - component: {fileID: 8575260797183428230}
+  - component: {fileID: 4153021461051123820}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6986347836695682979
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6990083785208687094}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.86, y: -5.9, z: 9.704}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8421511880623039579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6990083785208687094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fcc8d217ce79034e92fb9108934edb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clientePrefab:
+  - {fileID: 100046, guid: f8abbdd178867d2419ba9feb6ff2cba0, type: 3}
+  - {fileID: 100000, guid: 6f52b946693e54048af74f5cd6ba49f8, type: 3}
+  - {fileID: 100000, guid: 3bd8a450fcb589542a7843ea7bda2ee6, type: 3}
+  - {fileID: 100000, guid: fc01a3bb589cebc4aa10892db165243b, type: 3}
+  - {fileID: 100046, guid: 814f4326a50812947b2469896d89a215, type: 3}
+  - {fileID: 100046, guid: 7b6675de545141649953fd8adec4561b, type: 3}
+  - {fileID: 100046, guid: 2af1fa464b69e4c4cb1a408373c7d971, type: 3}
+  - {fileID: 100000, guid: f3f69bcf5a1514c458ed5c9b96f28e34, type: 3}
+  - {fileID: 100046, guid: 3cf7f489270aac84fb12901330960a5b, type: 3}
+  - {fileID: 100046, guid: 0e1316a3e46fdb349b6ff648610a1d71, type: 3}
+  - {fileID: 100000, guid: 610afbb40c4385d42aa33adfe3531f0a, type: 3}
+  - {fileID: 100000, guid: 7169122e91e1981469b2b6045ddf7963, type: 3}
+  - {fileID: 100000, guid: 2f8d00bf5057f624e949aef802595da9, type: 3}
+  - {fileID: 100000, guid: c14bb5ce28dbb7442a2f79d8b6a061ce, type: 3}
+  - {fileID: 100000, guid: b186f9485a0828b468f98fe846ae1a68, type: 3}
+  - {fileID: 100066, guid: fe32ce89f99911a478ea9e6736294382, type: 3}
+  - {fileID: 100066, guid: 4a7c3ad7168bb834b87a91e3f94ad3d6, type: 3}
+  - {fileID: 100000, guid: f147a01ef442b2345a3546109476c690, type: 3}
+  - {fileID: 100066, guid: 3afad42cab5a57a4c9f19f8deaaf8689, type: 3}
+  - {fileID: 100066, guid: 70ab0d3e71b54ac4bbd703cb0a686c4d, type: 3}
+  - {fileID: 100000, guid: 0703a1849c2c89b4db4568688faf0c5f, type: 3}
+  - {fileID: 100000, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
+  - {fileID: 100000, guid: 20847b8e912bc604b99e748a676d067b, type: 3}
+  - {fileID: 100000, guid: 882e87ba7c26a9d47a4f001002357e94, type: 3}
+  - {fileID: 100000, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
+  - {fileID: 100000, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
+  - {fileID: 100000, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
+  spawnPoint: {fileID: 6986347836695682979}
+  filaManager: {fileID: 8575260797183428230}
+  mesaManager: {fileID: 0}
+  textoSpawner: {fileID: 0}
+  offsetEntreMembros: 2
+  maxFamilias: 20
+--- !u!114 &8575260797183428230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6990083785208687094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab5ca43305f22644eb7f67fc3fcec79c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  posicoesFila:
+  - posicaoPrincipal: {fileID: 0}
+    subposicoes:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    subposicoesOcupadas: 
+    posicaoPrincipalOcupada: 0
+    familiaAtual: {fileID: 0}
+  - posicaoPrincipal: {fileID: 0}
+    subposicoes:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    subposicoesOcupadas: 
+    posicaoPrincipalOcupada: 0
+    familiaAtual: {fileID: 0}
+  - posicaoPrincipal: {fileID: 0}
+    subposicoes:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    subposicoesOcupadas: 
+    posicaoPrincipalOcupada: 0
+    familiaAtual: {fileID: 0}
+  - posicaoPrincipal: {fileID: 0}
+    subposicoes:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    subposicoesOcupadas: 
+    posicaoPrincipalOcupada: 0
+    familiaAtual: {fileID: 0}
+  - posicaoPrincipal: {fileID: 0}
+    subposicoes:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    subposicoesOcupadas: 
+    posicaoPrincipalOcupada: 0
+    familiaAtual: {fileID: 0}
+  - posicaoPrincipal: {fileID: 0}
+    subposicoes:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    subposicoesOcupadas: 
+    posicaoPrincipalOcupada: 0
+    familiaAtual: {fileID: 0}
+  - posicaoPrincipal: {fileID: 0}
+    subposicoes:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    subposicoesOcupadas: 
+    posicaoPrincipalOcupada: 0
+    familiaAtual: {fileID: 0}
+  - posicaoPrincipal: {fileID: 0}
+    subposicoes:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    subposicoesOcupadas: 
+    posicaoPrincipalOcupada: 0
+    familiaAtual: {fileID: 0}
+  - posicaoPrincipal: {fileID: 0}
+    subposicoes: []
+    subposicoesOcupadas: 
+    posicaoPrincipalOcupada: 0
+    familiaAtual: {fileID: 0}
+  - posicaoPrincipal: {fileID: 0}
+    subposicoes: []
+    subposicoesOcupadas: 
+    posicaoPrincipalOcupada: 0
+    familiaAtual: {fileID: 0}
+  - posicaoPrincipal: {fileID: 0}
+    subposicoes: []
+    subposicoesOcupadas: 
+    posicaoPrincipalOcupada: 0
+    familiaAtual: {fileID: 0}
+  - posicaoPrincipal: {fileID: 0}
+    subposicoes: []
+    subposicoesOcupadas: 
+    posicaoPrincipalOcupada: 0
+    familiaAtual: {fileID: 0}
+  - posicaoPrincipal: {fileID: 0}
+    subposicoes: []
+    subposicoesOcupadas: 
+    posicaoPrincipalOcupada: 0
+    familiaAtual: {fileID: 0}
+  - posicaoPrincipal: {fileID: 0}
+    subposicoes: []
+    subposicoesOcupadas: 
+    posicaoPrincipalOcupada: 0
+    familiaAtual: {fileID: 0}
+  - posicaoPrincipal: {fileID: 0}
+    subposicoes: []
+    subposicoesOcupadas: 
+    posicaoPrincipalOcupada: 0
+    familiaAtual: {fileID: 0}
+  - posicaoPrincipal: {fileID: 0}
+    subposicoes: []
+    subposicoesOcupadas: 
+    posicaoPrincipalOcupada: 0
+    familiaAtual: {fileID: 0}
+  - posicaoPrincipal: {fileID: 0}
+    subposicoes: []
+    subposicoesOcupadas: 
+    posicaoPrincipalOcupada: 0
+    familiaAtual: {fileID: 0}
+  - posicaoPrincipal: {fileID: 0}
+    subposicoes: []
+    subposicoesOcupadas: 
+    posicaoPrincipalOcupada: 0
+    familiaAtual: {fileID: 0}
+  - posicaoPrincipal: {fileID: 0}
+    subposicoes: []
+    subposicoesOcupadas: 
+    posicaoPrincipalOcupada: 0
+    familiaAtual: {fileID: 0}
+  - posicaoPrincipal: {fileID: 0}
+    subposicoes: []
+    subposicoesOcupadas: 
+    posicaoPrincipalOcupada: 0
+    familiaAtual: {fileID: 0}
+--- !u!114 &4153021461051123820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6990083785208687094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8db454a72cb937542adf35a6c0a14c87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  membrosDaFamilia: []
+  pedidoDaFamilia:
+    quantidadePizzas: 0
+    quantidadeRefris: 0

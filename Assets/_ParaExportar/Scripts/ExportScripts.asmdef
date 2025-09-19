@@ -1,0 +1,16 @@
+{
+  "name": "ExportScripts",
+  "rootNamespace": "",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "EXPORT_SCRIPTS_DISABLED"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
